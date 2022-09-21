@@ -1,0 +1,26 @@
+
+.one{
+    width: 300px;
+    height: 300px;
+    padding: 30px ;
+    border: 4px solid green;
+    background: gray;
+    box-sizing: border-box;
+    color: red;
+}
+
+.two{
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border: 4px solid;
+    background: gray;
+    box-sizing: border-box;
+}
+
+.three{
+    width: 200px;
+    height: 250px;
+    border: 5px solid;
+    background: gray;
+}

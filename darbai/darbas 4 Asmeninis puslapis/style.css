@@ -1,0 +1,17 @@
+html{
+    font-family: 'PT Serif', serif;
+    background: rgb(161, 248, 161);
+    font-size: 15px;
+    background-image: linear-gradient(green, white);
+ }
+header {
+    padding: 1px;
+    text-align: center;
+    background: #3bbe5c;
+    color: white;
+    font-size: 30px;
+  }
+  footer{
+    background: #3bbe5c;
+    color: white;
+  }
