@@ -1,0 +1,38 @@
+img{
+    width: 300px;
+    margin-top: 50px;
+
+}
+.head-div{
+    padding: 20px;
+    border: 2px dotted;
+    text-align: center;
+    background-size: 500px 300px;
+    display: block;
+    width: 500px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+body{
+    background-color: rgb(77, 3, 37);
+}
+.sub-headings{
+    color: rgb(102, 26, 26);
+}
+span{
+    font-size: 50px;
+}
+.headline{
+    color: yellow;
+}
+.justify-text{
+    text-align: justify;
+    text-shadow: 1px 5px 4px white;
+}
+.colorfull-border{
+    border-radius: 25px;
+    border-width: 25px;
+    border-style: solid;
+    border-color: blue green yellow red;
+}

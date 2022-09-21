@@ -1,0 +1,15 @@
+html{
+    font-family: 'Ibarra Real Nova', serif;
+    color: white;
+}
+body{
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/3e32e8cae6aa86dc0fea5bbf631e6cea/razer-blade-15-studio-768x500-mobile.jpg);
+    background-size: 100%;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+.line{
+    text-decoration-line: underline;
+}

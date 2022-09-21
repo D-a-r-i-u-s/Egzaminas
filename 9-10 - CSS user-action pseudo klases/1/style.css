@@ -1,0 +1,19 @@
+input:checked {    
+    outline: 2px solid yellow;
+}
+input:valid{
+    border: 2px solid green;
+}
+input:invalid{
+    border:2px solid red;
+}
+input:focus{
+    background-color: aquamarine;
+}
+#card-nr:out-of-range{
+    background-color: blue;
+}
+button{
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,26 @@
+table, th, td{
+    border: 1px solid black;
+    border-spacing: 0;
+    text-align: left;
+    font-size: 20px;
+}
+th{
+    padding: 0.5rem;
+    width: 250px;
+}
+td{
+    padding: 0.5rem;
+    width: 180px; 
+}
+.orange{
+    background-color: orange;
+    color: white;
+}
+.blue{
+    background-color: blue;
+    color: white;
+}
+.green{
+    background-color: green;
+    color: white;
+}

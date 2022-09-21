@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Payment form</h1>
+    <p>Required fields are followed by*.</p>
+    <h2>Contact information</h2>
+    <form action="https://formspree.io/f/mzbwzzdy" method="POST">
+        <fieldset>
+            <legend>Title</legend>
+            <input type="radio" id="mister" name="title">
+            <label for="mister">Mister</label><br>
+            <input type="radio" id="miss" name="title">
+            <label for="miss">Miss</label><br>
+        </fieldset><br><br>
+            <label for="name">Name: *</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="e-mail">E-mail: *</label>
+            <input type="e-mail" id="e-mail" name="e-mail" required><br><br>
+            <label for="Password">Password: *</label>
+            <input type="text" id="Password" name="Password" required><br><br>
+            <h2>Payment information</h2>
+        
+            <label for="card-type">Card type: *</label>
+            <select name="visa" id="visa">
+                <option value="Visa">Visa</option>
+                <option value="Master-card">Master card</option>
+                <option value="Paypal">Paypal</option>
+            </select><br><br>
+            <label for="card-nr">Card number: *</label>
+            <input type="text" id="card-nr" name="card-nr" maxlength="16" required><br><br>
+            <label for="date">Expiration date: *</label>
+            <input type="text" id="date" name="date" required><br><br>
+            
+            <button type="submit">Send</button>
+
+            
+        
+    </form>
+
+    
+    
+</body>
+</html>
+

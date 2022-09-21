@@ -1,0 +1,53 @@
+body{
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+.container{
+    display: flex;
+    background-color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(165, 202, 30);
+    justify-content: space-between;
+}
+a{
+    padding: 25px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+article{
+    flex: 2;
+    margin: 16px 8px 16px 16px;
+}
+aside{
+    flex: 3;
+    margin: 16px 16px 16px 8px;
+}
+aside img{
+    float: left;
+}
+.team-foto{
+    margin: 0 15px 0 0;
+}
+button{
+    height: 50px;
+    background-color: rgb(165, 202, 30);
+    text-align: center;
+    border-style: none;
+}
+.button-style{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+footer{
+    text-align: center;
+}
+button a{
+    color: white;
+}
+

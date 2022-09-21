@@ -1,0 +1,16 @@
+h1 {
+    color: rgb(226, 39, 39);
+    background-color: aquamarine;
+}
+h2 {
+    color: rgb(56, 56, 114);
+    background-color: rgb(112, 224, 19);
+}
+li {
+    color: blue;
+    background-color: rgba(245, 10, 186, 0.733);
+}
+li.zalias {color: green;
+    background-color: black;
+
+} 

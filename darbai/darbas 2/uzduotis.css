@@ -1,0 +1,15 @@
+body{
+    background-color: blue;
+}
+p.red{
+    color: red;
+}
+#vienas{
+    color: aqua;
+}
+.my-class{
+    color: brown;
+}
+p{
+    color: pink;
+}
